@@ -1,6 +1,6 @@
 {
   "name": "first-line",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the first line of a file",
   "keywords": [
     "fs"
