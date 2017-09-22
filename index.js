@@ -17,6 +17,14 @@ function firstLine(file, callback) {
   // catch ENOENT
   stream.on('error', callback);
 
+  // Ensure that `callback` has been called by now, since the end of the stream
+  // has been reached. If `callback` has already been called, then this will be
+  // a no-op since `callback` was `once`-wrapped above. This is here for empty
+  // streams which won't trigger the `'data'` event.
+  stream.on('end', function() {
+    callback(null, null);
+  });
+
   stream.pipe(splitter);
 }
 
