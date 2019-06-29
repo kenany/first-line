@@ -1,7 +1,6 @@
 # first-line
 
 [![Build Status][travis-svg]][travis]
-[![Dependency Status][gemnasium-svg]][gemnasium]
 
 Get the first line of a file.
 
@@ -51,5 +50,3 @@ Reads the file at _String_ `file` and calls `callback(error, line)`, where
 
    [travis]: https://travis-ci.org/KenanY/first-line
    [travis-svg]: https://img.shields.io/travis/KenanY/first-line.svg
-   [gemnasium]: https://gemnasium.com/KenanY/first-line
-   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/first-line.svg
