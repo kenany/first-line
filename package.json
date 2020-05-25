@@ -28,6 +28,6 @@
     "@kenan/renovate-config": "1.1.1",
     "lodash.isfunction": "3.0.9",
     "lodash.isnull": "3.0.0",
-    "tape": "4.13.2"
+    "tape": "4.13.3"
   }
 }
