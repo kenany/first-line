@@ -1,7 +1,5 @@
 # first-line
 
-[![Build Status][travis-svg]][travis]
-
 Get the first line of a file.
 
 ## Example
@@ -46,7 +44,3 @@ var firstLine = require('first-line');
 Reads the file at _String_ `file` and calls `callback(error, line)`, where
 `error` is any _Error_ encountered and `line` is a _Buffer_ of the first line of
 `file`.
-
-
-   [travis]: https://travis-ci.org/KenanY/first-line
-   [travis-svg]: https://img.shields.io/travis/KenanY/first-line.svg
