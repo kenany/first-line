@@ -1,3 +1,10 @@
+### [1.0.7](https://github.com/KenanY/first-line/compare/1.0.6...1.0.7) (2020-10-01)
+
+
+### Bug Fixes
+
+* **deps:** once@1.4.0 ([33227a5](https://github.com/KenanY/first-line/commit/33227a566ba190581b81fb7588d819cef8f6f536))
+
 ### [1.0.6](https://github.com/KenanY/first-line/compare/1.0.5...1.0.6) (2020-09-29)
 
 
