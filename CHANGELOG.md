@@ -1,3 +1,10 @@
+### [1.0.8](https://github.com/KenanY/first-line/compare/1.0.7...1.0.8) (2021-04-02)
+
+
+### Bug Fixes
+
+* **deps:** graceful-fs@4.2.6 ([b4f77fc](https://github.com/KenanY/first-line/commit/b4f77fc46d371ebe7921a2af96618c288a384cb9))
+
 ### [1.0.7](https://github.com/KenanY/first-line/compare/1.0.6...1.0.7) (2020-10-01)
 
 
