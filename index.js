@@ -2,6 +2,10 @@ var split = require('binary-split');
 var fs = require('graceful-fs');
 var once = require('once');
 
+/**
+ * @param {fs.PathLike} file
+ * @param {(error: Error | null, line: Buffer | null) => unknown} callback
+ */
 function firstLine(file, callback) {
   callback = once(callback);
 

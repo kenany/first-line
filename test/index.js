@@ -1,9 +1,9 @@
-var firstLine = require('../');
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var path = require('path');
-var Buffer = require('buffer').Buffer;
-var isNull = require('lodash.isnull');
+const firstLine = require('../');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const path = require('path');
+const Buffer = require('buffer').Buffer;
+const isNull = require('lodash.isnull');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -12,7 +12,7 @@ test('exports a function', function(t) {
 
 test('only returns first line', function(t) {
   t.plan(3);
-  var p = path.resolve(__dirname, 'fixture.txt');
+  const p = path.resolve(__dirname, 'fixture.txt');
   firstLine(p, function(error, line) {
     t.error(error);
     t.ok(Buffer.isBuffer(line));
@@ -22,7 +22,7 @@ test('only returns first line', function(t) {
 
 test('returns `null` for empty file', function(t) {
   t.plan(2);
-  var p = path.resolve(__dirname, 'empty.txt');
+  const p = path.resolve(__dirname, 'empty.txt');
   firstLine(p, function(error, line) {
     t.error(error);
     t.ok(isNull(line));
@@ -31,7 +31,7 @@ test('returns `null` for empty file', function(t) {
 
 test('returns `null` for blank file', function(t) {
   t.plan(2);
-  var p = path.resolve(__dirname, 'just-newline.txt');
+  const p = path.resolve(__dirname, 'just-newline.txt');
   firstLine(p, function(error, line) {
     t.error(error);
     t.ok(isNull(line));
