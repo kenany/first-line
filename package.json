@@ -35,7 +35,7 @@
     "conventional-changelog-conventionalcommits": "4.6.1",
     "lodash.isfunction": "3.0.9",
     "lodash.isnull": "3.0.0",
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^18.0.1",
     "tape": "5.3.2"
   }
 }
