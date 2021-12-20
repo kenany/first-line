@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/KenanY/first-line/compare/1.0.9...2.0.0) (2021-12-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** Node.js v10 is no longer supported.
+
+### Features
+
+* **ci:** remove Node.js v10 ([dda9215](https://github.com/KenanY/first-line/commit/dda92153fab7a12ddddcee6b81d43e5103f3f5e4))
+
 ### [1.0.9](https://github.com/KenanY/first-line/compare/1.0.8...1.0.9) (2021-08-25)
 
 
