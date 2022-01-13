@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "binary-split": "^1.0.5",
-    "graceful-fs": "^4.2.8",
+    "graceful-fs": "^4.2.9",
     "once": "^1.4.0"
   },
   "devDependencies": {
