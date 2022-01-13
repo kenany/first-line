@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/KenanY/first-line/compare/2.0.0...2.0.1) (2022-01-13)
+
+
+### Bug Fixes
+
+* **deps:** graceful-fs@4.2.9 ([c22b72d](https://github.com/KenanY/first-line/commit/c22b72dd2823958ac619e059a9d01905dcc594bc))
+
 ## [2.0.0](https://github.com/KenanY/first-line/compare/1.0.9...2.0.0) (2021-12-20)
 
 
