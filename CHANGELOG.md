@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/KenanY/first-line/compare/2.0.2...3.0.0) (2022-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([3c6cb06](https://github.com/KenanY/first-line/commit/3c6cb0674a18ad7d6aa9178790bef03e34311f11))
+
 ### [2.0.2](https://github.com/KenanY/first-line/compare/2.0.1...2.0.2) (2022-04-12)
 
 
