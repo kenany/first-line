@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/kenany/first-line/compare/3.0.1...4.0.0) (2023-09-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([18567a0](https://github.com/kenany/first-line/commit/18567a064e854e38549aaf6cf02367a8df1f803f))
+
 ## [3.0.1](https://github.com/KenanY/first-line/compare/3.0.0...3.0.1) (2023-03-22)
 
 
