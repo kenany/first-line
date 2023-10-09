@@ -35,6 +35,6 @@
     "lodash.isfunction": "^3.0.9",
     "lodash.isnull": "^3.0.0",
     "semantic-release": "^22.0.5",
-    "tape": "^5.6.6"
+    "tape": "^5.7.0"
   }
 }
