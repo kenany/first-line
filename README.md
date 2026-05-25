@@ -4,27 +4,15 @@ Get the first line of a file.
 
 ## Example
 
-``` bash
-$ cat fixture.txt
-1
-2
-3
-```
-
 ``` javascript
-var firstLine = require('first-line');
-var path = require('path');
+import { firstLine } from 'first-line';
+import { resolve } from 'node:path';
 
-var p = path.resolve(__dirname, 'fixture.txt');
+const file = resolve('fixture.txt');
 
-firstLine(p, function(error, line) {
-  if (error) {
-    throw error;
-  }
-
-  console.log(line.toString());
-  // => '1'
-});
+const line = await firstLine(file);
+console.log(line);
+// => '1'
 ```
 
 ## Installation
@@ -36,11 +24,10 @@ $ npm install first-line
 ## API
 
 ``` javascript
-var firstLine = require('first-line');
+import { firstLine } from 'first-line';
 ```
 
-### `firstLine(file, callback)`
+### `firstLine(file: string): Promise<string | null>`
 
-Reads the file at _String_ `file` and calls `callback(error, line)`, where
-`error` is any _Error_ encountered and `line` is a _Buffer_ of the first line of
-`file`.
+Reads the file at `file` and resolves with the first line as a string, or `null`
+if the file is empty or contains only newlines.
