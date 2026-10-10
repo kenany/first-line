@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       binary-split:
-        specifier: ^1.0.5
-        version: 1.0.5
+        specifier: ^2.0.0
+        version: 2.0.0
       once:
         specifier: ^1.4.0
         version: 1.4.0
@@ -727,8 +727,9 @@ packages:
   before-after-hook@4.0.0:
     resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
 
-  binary-split@1.0.5:
-    resolution: {integrity: sha512-AQ5fcBrUU5hoIafkEvNKqxT+2xbqlSqAXef6IdCQr5wpHu9E7NGM6rTAlYJYbtxvAvjfx8nJkBy6rNlbPPI+Pw==}
+  binary-split@2.0.0:
+    resolution: {integrity: sha512-muL1+59S6CXKZudkOSpiKwnHO1N4Usk9f93mDhJFFmuzvGbgL2Jy1yk7UoGe1MZVE/ZFH2NAIJhTFzU6S/NkbQ==}
+    engines: {node: ^20.19 || >=22.12}
 
   bottleneck@2.19.5:
     resolution: {integrity: sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==}
@@ -2613,9 +2614,7 @@ snapshots:
 
   before-after-hook@4.0.0: {}
 
-  binary-split@1.0.5:
-    dependencies:
-      through2: 2.0.5
+  binary-split@2.0.0: {}
 
   bottleneck@2.19.5: {}
 
