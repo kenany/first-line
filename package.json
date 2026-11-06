@@ -45,7 +45,7 @@
     "prepare": "pnpm build"
   },
   "dependencies": {
-    "binary-split": "^1.0.5",
+    "binary-split": "^2.0.0",
     "once": "^1.4.0"
   },
   "devDependencies": {
