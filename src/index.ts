@@ -1,4 +1,5 @@
 import { createReadStream } from 'node:fs';
+import { EOL } from 'node:os';
 import split from 'binary-split';
 import once from 'once';
 
@@ -14,7 +15,7 @@ export function firstLine(file: string): Promise<string | null> {
     const resolve = once(_resolve);
     const reject = once(_reject);
 
-    const splitter = split();
+    const splitter = split(EOL);
 
     splitter.on('data', (chunk: Buffer) => {
       splitter.end();
