@@ -4,7 +4,7 @@ Get the first line of a file.
 
 ## Example
 
-``` javascript
+```javascript
 import { firstLine } from 'first-line';
 import { resolve } from 'node:path';
 
@@ -17,13 +17,13 @@ console.log(line);
 
 ## Installation
 
-``` bash
+```bash
 $ npm install first-line
 ```
 
 ## API
 
-``` javascript
+```javascript
 import { firstLine } from 'first-line';
 ```
 
